@@ -1,3 +1,8 @@
+
+vuex基础入门
+https://www.imooc.com/learn/1157
+
+# vuex 官网： https://vuex.vuejs.org/zh/
 # vue_vuex_jichurumen_imooc
 
 ## Project setup
