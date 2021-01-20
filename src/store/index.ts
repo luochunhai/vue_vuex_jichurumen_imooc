@@ -1,14 +1,12 @@
 import {createStore} from 'vuex'
+import state from "./state"
+import mutations from "./mutations"
+import getters from "./getters"
+import actions from "./actions"
 
 export default createStore({
-    state: {
-        count: 0
-    },
-    mutations: {
-        incrementCount(state) {
-            state.count++
-        }
-    },
-    actions: {},
-    modules: {}
+    state,
+    mutations,
+    actions,
+    getters,
 })
